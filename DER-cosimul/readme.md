@@ -28,11 +28,9 @@ Esta imagem tem como objetivo criar um ambiente de desenvolvimento preparado par
 Os seguintes comandos devem ser executados na pasta em que o Dockerfile desejado estiver:
 
 ```sh
-docker image build --build-arg GITHUB_TOKEN=$GITHUB_TOKEN -t lucassmelo/der-cosimul:0.1 .
+docker image build -t lucassmelo/der-cosimul:0.1 .
 ```
 O nome da imagem será lucassmelo/der-cosimul e sua versão é a 0.1.
-
-Para saber o que é um github token, acesse este [link]()
 
 Para criar o container e executá-lo logo em seguida, o comando a seguir deverá ser executado:
 
